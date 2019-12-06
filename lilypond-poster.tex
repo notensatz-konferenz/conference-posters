@@ -1,40 +1,4 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% a0poster Landscape Poster
-% LaTeX Template
-% Version 1.0 (22/06/13)
-%
-% The a0poster class was created by:
-% Gerlinde Kettl and Matthias Weiser (tex@kettl.de)
-% 
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% License:
-% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%----------------------------------------------------------------------------------------
-%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
-%----------------------------------------------------------------------------------------
-
-\documentclass[a0,landscape]{a0poster}
-
-\usepackage{multicol} % This is so we can have multiple columns of text side-by-side
-\columnsep=100pt % This is the amount of white space between the columns in the poster
-\columnseprule=3pt % This is the thickness of the black line between the columns in the poster
-
-\usepackage[svgnames]{xcolor} % Specify colors by their 'svgnames', for a full list of all colors available see here: http://www.latextemplates.com/svgnames-colors
-
-\usepackage{times} % Use the times font
-%\usepackage{palatino} % Uncomment to use the Palatino font
-
-\usepackage{graphicx} % Required for including images
-\graphicspath{{figures/}} % Location of the graphics files
-\usepackage{booktabs} % Top and bottom rules for table
-\usepackage[font=small,labelfont=bf]{caption} % Required for specifying captions to tables and figures
-\usepackage{amsfonts, amsmath, amsthm, amssymb} % For math fonts, symbols and environments
-\usepackage{wrapfig} % Allows wrapping text around tables and figures
+\documentclass{lilypondposter}
 
 \begin{document}
 
@@ -65,7 +29,7 @@ Email: \texttt{john@LaTeXTemplates.com}\\ % Email address
 \end{minipage}
 %
 \begin{minipage}[b]{0.19\linewidth}
-\includegraphics[width=20cm]{logo.png} % Logo or a photo of you, adjust its dimensions here
+\includegraphics[width=20cm]{templates/a0poster-landscape/figures/logo.png} % Logo or a photo of you, adjust its dimensions here
 \end{minipage}
 
 \vspace{1cm} % A bit of extra whitespace between the header and poster content
@@ -183,7 +147,7 @@ Phasellus imperdiet, tortor vitae congue bibendum, felis enim sagittis lorem, et
 Nulla ut porttitor enim. Suspendisse venenatis dui eget eros gravida tempor. Mauris feugiat elit et augue placerat ultrices. Morbi accumsan enim nec tortor consectetur non commodo. Pellentesque condimentum dui. Etiam sagittis purus non tellus tempor volutpat. Donec et dui non massa tristique adipiscing. Quisque vestibulum eros eu. Phasellus imperdiet, tortor vitae congue bibendum, felis enim sagittis lorem, et volutpat ante orci sagittis mi. Morbi rutrum laoreet semper. Morbi accumsan enim nec tortor consectetur non commodo nisi sollicitudin.
 
 \begin{center}\vspace{1cm}
-\includegraphics[width=0.8\linewidth]{placeholder}
+\includegraphics[width=0.8\linewidth]{templates/a0poster-landscape/figures/placeholder}
 \captionof{figure}{\color{Green} Figure caption}
 \end{center}\vspace{1cm}
 
@@ -207,7 +171,7 @@ Treatment 3 & 0.0009271 & 0.296 \\
 Vivamus sed nibh ac metus tristique tristique a vitae ante. Sed lobortis mi ut arcu fringilla et adipiscing ligula rutrum. Aenean turpis velit, placerat eget tincidunt nec, ornare in nisl. In placerat.
 
 \begin{center}\vspace{1cm}
-\includegraphics[width=0.8\linewidth]{placeholder}
+\includegraphics[width=0.8\linewidth]{templates/a0poster-landscape/figures/placeholder}
 \captionof{figure}{\color{Green} Figure caption}
 \end{center}\vspace{1cm}
 
